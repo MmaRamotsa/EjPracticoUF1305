@@ -75,3 +75,9 @@ boton2.addEventListener("click", function (){
 		document.getElementById("propiedades").style.visibility = "visible";
 		document.getElementById("resultado2").innerHTML = props;
 });
+
+
+var botonOcultar = document.getElementById("ocultar");
+botonOcultar.addEventListener("click", function (){
+	document.getElementById("propiedades").style.visibility = "hidden";
+});

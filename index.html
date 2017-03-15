@@ -3,8 +3,8 @@
 <head>
 <!--======================================================================
 Página creada por : Maria Antonia Martínez García
-Fecha: 14/03/2017
-Versión : v1.0
+Fecha: 15/03/2017
+Versión : v21.0
 Evaluación del módulo UF1305. Contiene los puntos solicitados en la prueba práctica.
 ==========================================================================-->
 	<meta charset="UTF-8">
@@ -12,67 +12,56 @@ Evaluación del módulo UF1305. Contiene los puntos solicitados en la prueba pr�
 	<meta name="author" content="MAMG">
 	<meta name="keywords" content:="HTML5,JavaScript,lenguajes de guión">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/w3.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<script src="js/funciones.js" defer></script>
 </head>
 <body>
-	<div class="container">
-		<header class="jumbotron">
+	<div class="w3-content w3-light-grey ">
+		<header class="w3-container w3-amber w3-center w3-padding-32">
     	<h1>Unidad Formativa UF1305</h1> 
     	<p>Prueba práctica de MAMG  <small>(14 de marzo de 2017)</small></p>
   	</header>
-
-<!-- 		<header class="row">
-	<h1 class="col-sm-12">Unidad Formativa UF1305: Prueba práctica</h1>
-</header> -->
-		<section class="container">
-			<header class="row">
-				<h2 class="col-sm-12">Palíndromos</h2>
+		<section class="w3-container">
+			<header class="w3-panel w3-blue-grey">
+				<h2>Palíndromos</h2>
 			</header>
-			<div class="form-inline">
-				<article class="form-group">
-					<label for="texto" >Texto:</label>
-					<input type="text" id="texto" class="form-control" tabindex="1" accesskey="t">
-				</article>
-				<button id="uno" tabindex="2" accesskey="1" class="btn btn-primary">1</button>
-				<article class="form-group">
-					<div class="col-sm-12">
-						<p id="aviso1" class="aviso">&nbsp;</p>
-						<p id="resultado1" class="text-info"></p>
-					</div>
-				</article>
+			<div class="w3-container">
+					<label for="texto" ><b>Texto:</b></label>
+					<input type="text" id="texto" class="w3-input" tabindex="1" accesskey="t">
+					<button id="uno" tabindex="2" accesskey="1" class="w3-btn">1</button>
+
+					<p id="aviso1" class="w3-panel w3-red" visibility="hidden"></p>
+					<p id="resultado1" class="w3-panel w3-blue" visibility="hidden"></p>
 			</div>
 		</section>
 		<!-- Parte 2 del ejercicio -->
-		<section class="container">
-			<header class="row">
-				<h2 class="col-sm-12">Propiedades de elemento &lt;a&gt;</h2>
+		<section class="w3-container">
+			<header class="w3-panel w3-blue-grey">
+				<h2>Propiedades del elemento &lt;a&gt;</h2>
 			</header>
-			<article class="row">
-				<div class="col-sm-2">
-					<a id="w3r" class="btn btn-link" type="text/html" hreflang="es-es" rel="nofollow" target="_blank" href="https://www.w3.org">W3C.org</a>
-				</div>
-				<div class="col-sm-10">
-					<button id="dos" tabindex="3" accesskey="2" class="btn btn-primary" onclick="">2</button>
-				</div>
+
+			<article class="w3-container">
+				<a id="w3r" class="btn btn-link" type="text/html" hreflang="es-es" rel="nofollow" target="_blank" href="https://www.w3.org">W3C.org</a>
+				<button id="dos" tabindex="3" accesskey="2" class="w3-btn" onclick="">2</button>
 			</article>
-			<article  id="propiedades" class="row">
-				<div class="col-sm-2">
+			<br>
+			<article  id="propiedades" class="w3-card-4">
+				<header class="w3-container w3-blue-grey">
 					<h3>Propiedades: </h3>
-				</div>
-				<div class="col-sm-6" id="resultado2"></div>
-				<div class="col-sm-4"></div>
+				</header>
+				<div class="w3-container" id="resultado2"></div>
+				<button id="ocultar" class="w3-button w3-block w3-blue-grey">Ocultar</button>
 			</article>
 		</section>
-     <footer class="footer-personalizada">
-        <div class="footer-right">
-        <a class="btn btn-social-icon btn-linkedin" href="https://es.linkedin.com/in/maria-antonia-mg" target="blank"><span class="fa fa-linkedin"></span></a>
-        <a class="btn btn-social-icon btn-google" href="https://plus.google.com/u/0/+MarianMartinez" target="blank"><span class="fa fa-google"></span></a>
-        </div>
-        <div class="footer-left">
+     <footer class="w3-container w3-amber">
+        <div class="w3-container w3-amber footer-left">
             <p>Marian (Prueba de Evaluación) 2017</p>
+        </div>
+        <div class="w3-container w3-amber footer-right">
+        	<a class="btn btn-social-icon btn-linkedin" href="https://es.linkedin.com/in/maria-antonia-mg" target="blank"><span class="fa fa-linkedin"></span></a>
+        	<a class="btn btn-social-icon btn-google" href="https://plus.google.com/u/0/+MarianMartinez" target="blank"><span class="fa fa-google"></span></a>
         </div>
     </footer>
 	</div>
