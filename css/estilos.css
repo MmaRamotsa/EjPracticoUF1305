@@ -1,0 +1,40 @@
+#propiedades {
+	visibility: hidden;
+}
+
+#resultado2 {
+	background-color: lightgray;
+	margin-top: 20px;
+	border: 1px solid gray;
+}
+
+.result{
+	background-color: lightgreen;
+}
+
+.aviso{
+	color: red;
+}
+
+.footer-personalizada{
+	background-color: #292c2f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 20px 20px;
+	margin-top: 4em;
+}
+.footer-personalizada .footer-left p{
+	color:  #aaaaaa;
+	font-size: 14px;
+	margin: 0;
+}
+.footer-personalizada .footer-right {
+	color:  #aaaaaa;
+	float: right;
+	max-width: 300px;
+}
+.footer-right .fa{
+	font-size: 20px;
+	color:  #aaaaaa;
+}
